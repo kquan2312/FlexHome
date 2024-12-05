@@ -1,0 +1,25 @@
+@media (max-width:768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 670fr 98rem;
+        aspect-ratio: 3/4;
+    }
+
+    .container_left {
+        padding-top: 48rem;
+    }
+
+    .container_right {
+        overflow: hidden;
+    }
+
+    .footer_right {
+        height: 232rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .room_info {
+        margin: 0 24rem;
+    }
+}
